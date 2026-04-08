@@ -89,6 +89,11 @@ arpeggioChitarra = \relative c' {
   % 8 misure (G, G, D/A, D, Em9, Em9, C9, G) – arpeggio a ottavi
   c,8 g' c d e2 | % C
   c,8 g' c d e2 | % C
+  b,8 e b ' d e 2 | %Em
+  c,8 g' c d e2 | % C
+  a,,8 e' a c e2 | % Am
+  g,,8 e' a c e2 | % Am/G
+  b,8 g b c' b2 | % Am
   
 }
 
