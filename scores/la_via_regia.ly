@@ -89,9 +89,9 @@ testo = \lyricmode {
  io con garbo ho se -- que -- strato
  
  Io ho crea -- to la cit -- tà
- di A -- les -- san -- dro
+ di A -- les -- sandro
  Ho fon -- da -- to la struttura
- di A -- les -- san -- dria
+ di A -- les -- san -- dri -- a
  
  Co -- me un fi -- glio ingrato
  L'uo -- mo che ho ospi -- tato
@@ -178,6 +178,7 @@ accordi = \chordmode {
   c2 f2|
   c1|
   c2 a2:m| f1|g1|c1
+  
   %c2 f2 c2 a2:m c2 a2:m
   %d1:m f1 c2 a2:m f1
   %g1 c1 c2 a2:m f2 c2 c2 a2:m
@@ -215,8 +216,20 @@ arpeggioChitarra = \relative c' {
   <b e g >2 <b e g>2   | % Em
   <e a c >1   | %  am
   <e a c >1   | %  am
-   <f a c >2  <b d g >2   | % F - G
-  
+  <f a c >2  <b d g >2   | % F - G
+  <e, a c >2 <b e g >2   | % c - am
+  <f' a c >2  <c e g c>2   | % F - C
+  <e a c >2 <b e g >2   | % c - am
+  <f' a c >2  <c e g c>2   | % F - C
+  <c e g c>2 <e g b>2   | % c - Em
+  <c e g c>2 <e a c >2   | % c - F
+  <c e g c>2 <e a c >2   | % c - F
+  <c e g c>2 <c e g c>2   | % c 
+  <e, a c >2 <b e g >2   | % c - am
+  <f' a c >1   | % F 
+  <b d g >1   | %  G
+  <c e g c>1  | % c 
+
 }
 
 
