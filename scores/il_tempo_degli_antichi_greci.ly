@@ -81,10 +81,10 @@ testo = \lyricmode {
   co -- n di -- se -- gni arti -- cola -- ti,
   so -- pra vasi ora spez -- za -- ti. 
   
-  Que -- sto è il tem -- po degli anti -- chi gre -- ci,
-  Alesan -- dria sa -- rà il cen -- tro del -- la ci -- vil -- tà,
+  Questo è_il tem -- po de -- gli anti -- chi gre -- ci,
+  A -- le -- sandria sa -- rà il cen -- tro del -- la ci -- vil -- tà,
   den -- tro la sua bi -- blio -- te -- ca,
-  la cul -- tu -- ra an -- drà ol -- tre le di -- vi -- ni -- tà.
+  la cul -- tu -- ra andrà ol -- tre le di -- vi -- ni -- tà.
   
   Sul -- le ce -- ne -- ri ar -- gentate,
   di A -- les -- san -- dro il meceate
@@ -104,6 +104,7 @@ testo = \lyricmode {
 melodiaVoce =  \relative f' {
   \global
   %\autoBeamOff
+  r1|
   r4 r4 r4 r8 d16 df16| 			%Pri --
   d8[ a'8] a8 f8 [d4] r8 d16 df16 | 	%-- ma an -- cora dei cristia -- ni
   d8 [bf'8] bf8 [a8] g4 r8 bf16 a16|	%sul -- le coste in riva al mare c'e
@@ -113,25 +114,20 @@ melodiaVoce =  \relative f' {
   d8[ a'8] a8 [f8] d4 r8 d16 df16 |		%co -- stru -- i - vano sis -- temi
   d8 [bf'8] bf8 [a8] g4 r8 bf16 a16|		%per com -- pren -- dere gli sche -- mi
   bf8 a bf8 a bf8 a8 a8 a8 |			%co -- n dise -- gni arti -- cola -- ti,
-  a8  e8 f8 e8 d8  r4.|	r2 r8 bf'8 c8 d16 d| 		%sopra vasi ora spezza -- ti. 
+  a8  e8 f8 e8 d8  r4. 		%sopra vasi ora spezza -- ti. 
   
  %rit
-    
-    d d  d8 c8 c8  a4 a8|    |
- g16 f g g g16 f g g g16 f g8 a8 r8|
- 
- d16 d16 d16 d16 d8 c8 c8. a16 a4   |
+ |	r2  bf'4 c4|      %%Questo 
+ d16 d16 d16 d16 	d8 c16 c8 a8 r8. g16 f16   | %è_il tem -- po de -- gli anti -- chi gre -- ci,
+ g16 g16		g16 f16 g16 g16		g16 f g16 a8  a8 r8.|
+ d16 d16 d16 d16 	d8 c16 c8 a8 r16  r4    |
  g16 f g g g16 f g g g16 f g8  a4|
  
- r2.  d,16 df16|
- %d8 a'8 a8 f8 d4 r8 d16 d16 | 
- %d8 bf'8 bf8 a8 g4 r8 bf16 a16|
- %bf8 a bf8 a bf8 a e4 |
- %f8 e8 e4 r2 |
+ r4 r4 r4.  d,16 df16|
  d8[ a'8] a8 f8 [d4] r8 d16 df16 | 	%-- ma an -- cora dei cristia -- ni
   d8 [bf'8] bf8 [a8] g4 r8 bf16 a16|	%sul -- le coste in riva al mare c'e
   bf8 [ a bf8] a [bf8 a8] a8 a8 |		% -- ran po -- po -- li pa -- ga -- ni
-  a8  e8 f8 e8 d8  r4 d'16 df16|	
+  a8  e8 f8 e8 d8  r4 d16 df16|	
  
  %r2. r8 d16 df16|
  d8 d8 d8 e8 f4 e8 f8 e8
@@ -139,10 +135,11 @@ melodiaVoce =  \relative f' {
  f8 e8 f8 e8 f8 e8 f8 e8
  f8 e8 f8 e8 f8 e8 ~ e4
  
- %rit
- d16 d16 d16 d16 d8 c8 c8. a16 a4   |
- g16 f g g g16 f g g g16 f g g a8 r8|
- d16 d16 d16 d16 d8 c8 c8. a16 a4   |
+%rit
+ |	r2  bf'4 c4|      %%Questo 
+ d16 d16 d16 d16 	d8 c16 c8 a8 r8. g16 f16   | %è_il tem -- po de -- gli anti -- chi gre -- ci,
+ g16 g16		g16 f16 g16 g16		g16 f g16 a8  a8 r8.|
+ d16 d16 d16 d16 	d8 c16 c8 a8 r16  r4    |
  g16 f g g g16 f g g g16 f g8  a4|
   
 }
@@ -150,6 +147,7 @@ melodiaVoce =  \relative f' {
 % Accordi: una misura ciascuno (allineati alle 8 misure dell'arpeggio)
 accordi = \chordmode {
 %ver \
+d1:m|
 d1:m|
 d1:m|g1:m|a1|a2 d2:m
 %ver 2
