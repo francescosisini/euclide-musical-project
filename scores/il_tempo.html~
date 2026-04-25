@@ -1,0 +1,71 @@
+<style>
+  .rhythm-table {
+    border-collapse: collapse;
+    font-family: "Georgia", serif;
+    margin: 1rem 0;
+  }
+
+  .rhythm-table th,
+  .rhythm-table td {
+    border: 1px solid #cfd8e3;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.45rem 0.35rem;
+    white-space: nowrap;
+  }
+
+  .rhythm-table th {
+    font-weight: 700;
+    background: #f4f7fb;
+  }
+
+  .r-ta {
+    width: 3rem;   /* semicroma */
+  }
+
+  .r-taa {
+    width: 6rem;   /* croma */
+  }
+
+  .r-taaa {
+    width: 12rem;  /* semiminima */
+  }
+
+  .lyric {
+    font-size: 1.05rem;
+  }
+</style>
+
+<h2>Guida ritmica del testo</h2>
+
+<table class="rhythm-table">
+  <tr>
+    <th class="r-ta">ta</th>
+    <th class="r-ta">ta</th>
+    <th class="r-taa">taa</th>
+    <th class="r-taa">taa</th>
+    <th class="r-taa">taa</th>
+    <th class="r-taa">taa</th>
+    <th class="r-taa">taa_aa</th>
+  </tr>
+
+  <tr class="lyric">
+    <td>prim-</td>
+    <td>-ma</td>
+    <td>anco-</td>
+    <td>-ra</td>
+    <td>dei</td>
+    <td>cri-</td>
+    <td>-stiani</td>
+  </tr>
+
+  <tr class="lyric">
+    <td>sul-</td>
+    <td>-le</td>
+    <td>co-</td>
+    <td>-ste</td>
+    <td>in</td>
+    <td>riva</td>
+    <td>al mare</td>
+  </tr>
+</table>

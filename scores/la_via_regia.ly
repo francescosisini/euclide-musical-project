@@ -5,7 +5,7 @@
   title = "La via regia"
   subtitle = "Euclide"
   composer = "Franceso Sisini"
-  arranger = "Valentina Sisini, Matteo Braiato"
+  %arranger = "Valentina Sisini, Matteo Braiato"
   tagline = \markup {
     
     \center-column {
@@ -284,13 +284,13 @@ arpeggioChitarra = \relative c' {
     \new Lyrics \lyricsto "voce" { \testo }
 
     % --- Staff CHITARRA (standard) con arpeggio ---
-    \new Staff \with {
-      instrumentName = "Chitarra"
-      midiInstrument = "acoustic guitar (nylon)"
-    } {
-     \clef "treble_8"
-      \arpeggioChitarra
-    }
+   % \new Staff \with {
+   %   instrumentName = "Chitarra"
+   %   midiInstrument = "acoustic guitar (nylon)"
+   % } {
+    % \clef "treble_8"
+    %  \arpeggioChitarra
+   % }
 
     % --- Tabulatura CHITARRA (stesso arpeggio) ---
     %\new TabStaff \with {
