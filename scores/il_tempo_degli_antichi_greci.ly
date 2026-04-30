@@ -101,7 +101,7 @@ testo = \lyricmode {
   den -- tro la sua bi -- blio -- te -- ca,
   la cul -- tu -- ra an -- drà ol -- tre le di -- vi -- ni -- tà.
 }
-melodiaVoce =  \relative f' {
+melodiaVoce =  \relative f'' {
   \global
   %\autoBeamOff
   r1|
@@ -122,6 +122,10 @@ melodiaVoce =  \relative f' {
  g16 g16		g16 f16 g16 g16		g16 f g16 a8  a8 r8.|
  d16 d16 d16 d16 	d8 c16 c8 a8 r16  r4    |
  g16 f g g g16 f g g g16 f g8  a4|
+ 
+ 
+ %strumentale
+ r1 r1 r1
  
  r4 r4 r4.  d,16 df16|
  d8[ a'8] a8 f8 [d4] r8 d16 df16 | 	%-- ma an -- cora dei cristia -- ni
@@ -153,7 +157,11 @@ d1:m|g1:m|a1|a2 d2:m
 %ver 2
 d1:m|g1:m|a1|a2d2:m|d1:m
 %rit
-bf2 f2 | c1 | bf2 f2 | a1
+bf2 c2 | f1 | bf2 c2 | a1
+
+ %strumentale
+ d1:m|g1:m|a1
+
 %ver 3
 a2 d2:m|
 d1:m|g1:m|a1|d1:m
@@ -169,6 +177,63 @@ bf2 f2 | c1 | bf2 f2 | a1
   %f2 c2 c1 c1 e1:m a1:m a1:m f2 g2
   %a2:m g2 f2 c2 a2:m g2 f2 c2 c1 c2 d2:m
   %c2 f2 c1 c2 a2:m f1 g1 c1
+}
+
+basso =  \relative c {
+      d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
+      d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
+      d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
+      g,8 d16  g  g8 d16  g g8 d16  g g8  d16  g|
+      a,8 cs16 a  a8 cs16 a a8 cs16 a  a8 cs16 a|
+      a8  cs16 a  a8 cs16 a ad8 a16 d  d8 a16 d
+      
+      d'8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
+      g,8 d16 g  g8 d16 g g8 d16 g g8 d16 g|
+      a,8 cs16 a  a8 cs16 a a8 cs16 a a8 cs16 a|
+      a8 cs16 a  a8 cs16 a d8 a16 d  d8 a16 d
+      
+      %rit
+      d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
+      bf4 bf4 c4 c4 f4 f4 f4 f4
+      bf4 bf4 c4 c4  a4 a4 a4 a4
+      %strumetale
+      d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
+      g,8 d16 g  g8 d16 g g8 d16 g g8 d16 g|
+      a,8 cs16 a  a8 cs16 a a8 cs16 a a8 cs16 a|
+      a8 cs16 a  a8 cs16 a ad8 a16 d  d8 a16 d
+      
+      %verso
+      d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
+      g8 d16 g  g8 d16 g g8 d16 g g8 d16 g|
+      a,8 cs16 a  a8 cs16 a a8 cs16 a a8 cs16 a|
+      a8 cs16 a  a8 cs16 a ad8 a16 d  d8 a16 d
+      
+      d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
+      g8 d16 g  g8 d16 g g8 d16 g g8 d16 g|
+      a,8 cs16 a  a8 cs16 a a8 cs16 a a8 cs16 a|
+      a8 cs16 a  a8 cs16 a ad8 a16 d  d8 a16 d
+      
+      %rit
+      d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
+      bf4 bf4 c4 c4 f4 f4 f4 f4
+      bf4 bf4 c4 c4  a4 a4 a4 a4
+      %strumetale
+      d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
+      g,8 d16 g  g8 d16 g g8 d16 g g8 d16 g|
+      a,8 cs16 a  a8 cs16 a a8 cs16 a a8 cs16 a|
+      
+      
+      
+      
+      
+    }
+fisarmonica = \relative c''
+{  r1 r1 r1 r1 r1 r1 
+   r1 r1 r1 r1 r1 r1 
+   r1 r1 r1 
+    a4 f4 d4 g8 a8|
+    bf4 g4 d4 r4 |
+    e16 f16 e16 f16 e4 e16 f16 e16 f16 e4 | f4 d4 r2 
 }
 
 arpeggioChitarra = \relative c' {
@@ -200,6 +265,7 @@ arpeggioChitarra = \relative c' {
 
     % --- (facoltativo) Diagrammi chitarra allineati agli accordi ---
     % \new FretBoards { \accordi }
+    
 
   
 \new Staff \with {
@@ -216,17 +282,40 @@ arpeggioChitarra = \relative c' {
 >>
 
 
-    % --- Staff VOCE ---
-   % \new Staff <<
-    %  \new Voice = "voce" {
-    %    \mark \markup \box "Sospirata"
-
-     %   \melodiaVoce
-    %  }
-   % >>
 
     % --- LYRICS legate alla Voice "voce" ---
     \new Lyrics \lyricsto "voce" { \testo }
+    
+    
+    
+   \new Staff \with {
+  instrumentName = "Fisarmonica"
+  midiInstrument = "accordion"
+  %\override DynamicTextSpanner.staff-padding = #3
+}
+    
+    {
+      
+    \fisarmonica
+    % QUI va la musica
+  }
+    
+  \new Staff \with {
+  instrumentName = "Bass"
+  midiInstrument = "acoustic bass"
+  \override DynamicTextSpanner.staff-padding = #3
+}
+    
+    {
+      
+    \clef bass
+    \time 4/4
+    \basso
+  }
+  
+  
+  
+  
 
     % --- Staff CHITARRA (standard) con arpeggio ---
   %  \new Staff \with {   instrumentName = "Chitarra" midiInstrument = "acoustic guitar (nylon)" } {\clef "treble_8" \arpeggioChitarra}
@@ -238,6 +327,7 @@ arpeggioChitarra = \relative c' {
      % \arpeggioChitarra
     %}
   >>
+  
   \layout { }
   \midi { \tempo 4 = 95 }
 }
