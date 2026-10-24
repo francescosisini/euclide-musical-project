@@ -10,10 +10,10 @@
   }
 }
 \header {
-  title = "Il tempo degli antichi greci"
-  subtitle = "Euclide"
+ title = "Il tempo degli antichi greci"
+ % subtitle = "Euclide"
   composer = "Franceso Sisini"
-  %arranger = "Valentina Sisini, Matteo Braiato"
+  arranger = "Valentina Sisini, Matteo Braiato"
   tagline = \markup {
     
     \center-column {
@@ -22,12 +22,12 @@
       "© 2026 Edizioni Tradizionali — "
       "CC BY 4.0 — "
       \with-url #"https://creativecommons.org/licenses/by/4.0/" "creativecommons.org/licenses/by/4.0"
-      }
+     }
       \small \line { \with-url #"https://github.com/francescosisini/Cnot-Franchise" "https://github.com/francescosisini/Cnot-Franchise" }
       \tiny \line {
       "Testo rifinito con ChatGPT, audio Suno, trascrizione e arrangiamento degli autori."
     }
-      \small \italic "Music engraving by LilyPond"
+     \small \italic "Music engraving by LilyPond"
       
     }
     
@@ -42,28 +42,28 @@ license = \markup {
   }
 }
 
-\paper {
-  tagline = \markup {
-    \tiny \line {
-      "© 2025 Edizioni Tradizionali — "
-      "CC BY 4.0 — "
-      \with-url #"https://creativecommons.org/licenses/by/4.0/" "creativecommons.org/licenses/by/4.0"
-      " — Testo rifinito con ChatGPT, audio Suno, trascrizione e arrangiamento degli autori."
-    }
-  }
-}
+%\paper {
+%  tagline = \markup {
+%    \tiny \line {
+%      "© 2025 Edizioni Tradizionali — "
+%      "CC BY 4.0 — "
+%      \with-url #"https://creativecommons.org/licenses/by/4.0/" "creativecommons.org/licenses/by/4.0"
+%      " — Testo rifinito con ChatGPT, audio Suno, trascrizione e arrangiamento degli autori."
+%    }
+%  }
+%}
 
-\paper {
-  oddHeaderMarkup = \markup {
-    \fill-line { \null \epsfile #Y #8 #"qrcode.eps" }  % header dx
-  }
-}
+%\paper {
+ % oddHeaderMarkup = \markup {
+    %\fill-line { \null \epsfile #Y #8 #"qrcode.eps" }  % header dx 
+  %}
+%}
 \paper {
   #(define fonts
     (set-global-fonts
       #:music "emmentaler"
       #:brace "emmentaler"
-      #:factor (/ staff-height pt 23)
+      #:factor (/ staff-height pt 25)
     ))
 }
 
@@ -185,7 +185,7 @@ basso =  \relative c {
       d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
       g,8 d16  g  g8 d16  g g8 d16  g g8  d16  g|
       a,8 cs16 a  a8 cs16 a a8 cs16 a  a8 cs16 a|
-      a8  cs16 a  a8 cs16 a ad8 a16 d  d8 a16 d
+      a8  cs16 a  a8 cs16 a a8 a16 d  d8 a16 d
       
       d'8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
       g,8 d16 g  g8 d16 g g8 d16 g g8 d16 g|
@@ -200,18 +200,18 @@ basso =  \relative c {
       d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
       g,8 d16 g  g8 d16 g g8 d16 g g8 d16 g|
       a,8 cs16 a  a8 cs16 a a8 cs16 a a8 cs16 a|
-      a8 cs16 a  a8 cs16 a ad8 a16 d  d8 a16 d
+      a8 cs16 a  a8 cs16 a a8 a16 d  d8 a16 d
       
       %verso
       d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
       g8 d16 g  g8 d16 g g8 d16 g g8 d16 g|
       a,8 cs16 a  a8 cs16 a a8 cs16 a a8 cs16 a|
-      a8 cs16 a  a8 cs16 a ad8 a16 d  d8 a16 d
+      a8 cs16 a  a8 cs16 a a8 a16 d  d8 a16 d
       
       d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
       g8 d16 g  g8 d16 g g8 d16 g g8 d16 g|
       a,8 cs16 a  a8 cs16 a a8 cs16 a a8 cs16 a|
-      a8 cs16 a  a8 cs16 a ad8 a16 d  d8 a16 d
+      a8 cs16 a  a8 cs16 a a8 a16 d  d8 a16 d
       
       %rit
       d8 a16 d  d8 a16 d d8 a16 d d8 a16 d|
@@ -288,43 +288,22 @@ arpeggioChitarra = \relative c' {
     
     
     
-   \new Staff \with {
-  instrumentName = "Fisarmonica"
-  midiInstrument = "accordion"
-  %\override DynamicTextSpanner.staff-padding = #3
-}
+   %\new Staff \with { instrumentName = "Fisarmonica" midiInstrument = "accordion"}{\fisarmonica}
     
-    {
-      
-    \fisarmonica
-    % QUI va la musica
-  }
-    
-  \new Staff \with {
-  instrumentName = "Bass"
-  midiInstrument = "acoustic bass"
-  \override DynamicTextSpanner.staff-padding = #3
-}
-    
-    {
-      
-    \clef bass
-    \time 4/4
-    \basso
-  }
+   %\new Staff \with {instrumentName = "Bass" midiInstrument = "acoustic bass" } {\clef bass \time 4/4 \basso}
   
   
   
   
 
     % --- Staff CHITARRA (standard) con arpeggio ---
-  %  \new Staff \with {   instrumentName = "Chitarra" midiInstrument = "acoustic guitar (nylon)" } {\clef "treble_8" \arpeggioChitarra}
+   % \new Staff \with {   instrumentName = "Chitarra" midiInstrument = "acoustic guitar (nylon)" } {\clef "treble_8" \arpeggioChitarra}
 
     % --- Tabulatura CHITARRA (stesso arpeggio) ---
     %\new TabStaff \with {
-     % stringTunings = #guitar-tuning
-    %} {
-     % \arpeggioChitarra
+    %  stringTunings = #guitar-tuning
+   % } {
+    %  \arpeggioChitarra
     %}
   >>
   

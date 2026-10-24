@@ -1,0 +1,9 @@
+# File audio e video
+*.mp4
+*.mp3
+
+# Intera cartella festival
+/festival/
+
+*.wav
+/festival/

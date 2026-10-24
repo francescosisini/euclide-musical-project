@@ -1,0 +1,100 @@
+0.179090	0.179090	
+5.177900	7.741714	Long before the Christian era,
+7.867391	10.757966	along the shores beside the sea,
+10.506612	15.181803	there lived pagan peoples,\N with art within their hands.
+19.128066	24.130017	They built systems\N to understand the patterns,
+24.130017	30.765772	with intricate designs\N on vases now shattered.
+31.092533	36.345839	This was the age of the ancient Greeks. \N Alexandria would become the center of civilization.
+36.471516	44.665668	Within its library, \N culture would reach beyond the gods.
+55.172279	61.305325	Upon the silver ashes of Alexander, the patron,
+61.405867	70.530030	Ptolemy built a new tapestry for the East.
+70.630572	76.386586	And military might, \N with its soldiers and generals,
+76.512263	83.148018	gave way to the scientists \N gathered in Alexandria.
+84.781822	98.229279	This was the age of the ancient Greeks...
+121.199979	127.009352	In right-angled triangles, 
+127.160165	132.262658	the square on the side opposite the right angle
+133.016721	147.947169	is equal to the sum of the squares on the sides that form the right angle.
+144.453344	147.947169	A young student has questioned my proof. 
+148.148253	154.231028	He constructed it himself with a straightedge and tablet,
+154.331570	159.961907	but seeing it is not enough— that is what his mind tells him.
+160.137855	165.064400	He says it has not been proven upon an established foundation,
+165.265484	170.192029	with rigorous boundaries and underlying axioms.
+170.443383	175.797231	By questioning Thales and Hippocrates, Euclid
+175.922908	181.000266	shakes a structure that has endured for centuries. 
+181.930277	186.429520	He said in the agora: “The theorem of Pythagoras has not been proven.” 
+186.580332	197.288028	Perhaps I am too old to understand… perhaps the Academy is not enough. He cannot stay. I will let him leave.
+197.991820	209.654662	In right-angled triangles, the square on the side opposite the right angle...
+253.088693	259.950667	I will leave and abandon 
+285.362591	296.296505	the skeptical companions who care for me, and my teacher, who carefully holds back
+296.397047	315.499977	words of affection for me, though I seem heartless. I have made my decision: I must leave. For Alexandria.
+315.022404	328.494997	In Cyrene, an unfinished study awaits me, but travelling there by land would be far too dangerous.
+328.620674	341.741371	A distant colony—yet perhaps there I may find the traces left behind by Eudoxus.
+355.088287	368.862505	From Megara, the route can be considered safe. Travelling by sea, frightening though it may be
+368.988183	383.365651	would be more realistic than crossing the desert. There is a distant port I must reach: Alexandria.
+395.857962	410.059483	The Etesian winds have swept the sky clear, the air is light, and I can breathe. The climate is different from that of the mainland: the scent of sea, stone and papyrus, in Alexandria.
+451.079979	458.118434	Demetrius of Phalerum has introduced me to a young mathematician.
+458.118434	465.483117	He says there is no need for gods or sacred numbers.  Only definitions.
+465.382575	473.249966	Perhaps he is a simpleton, or perhaps he will sweep away the mysticism of the Pythagoreans.
+472.948341	482.876838	He shall be admitted to the Library.  I will leave the judgment to History.
+488.833936	496.600785	A point is that which has no part.
+496.801869	505.850625	A line is breadthless length.  The ends of a line are points
+525.028962	534.907188	From the premises, knowledge descends to earth, as was to be demonstrated! 
+547.726259	551.270356	I do not claim that I am right; I ask only that you grant me this:
+551.546845	553.557680	let a line be drawn between two given points,
+553.733628	557.026370	and, by the same concession, let those points be moved apart.
+563.008604	565.094845	If you now accept that I may do this,
+565.195387	567.633524	and with the same grace you are willing to imitate me,
+567.734065	569.669494	then there is no need to comprehend infinity:
+569.895713	572.937100	it will be defined within language.
+573.113049	586.258881	There is a third kind: space,  the receptacle of all becoming,  itself formless.
+592.995177	597.871452	What has been constructed is a chain of links,
+597.971994	602.395830	joining fields of knowledge and holding them together.
+602.496372	609.484023	Things equal to the same thing are also equal to one another.
+613.430286	621.599302	From the premises, knowledge descends to earth, as was to be demonstrated!
+664.555760	669.230951	And there is only one risk, one danger to avoid:
+669.356628	675.891841	 if the first link touches the last, closing the chain into a collar.
+740.866940	750.242457	Only you remain, and you know it. You have no place among the others.
+750.393270	761.855028	 You were never brought in; you were never needed.
+763.036394	776.006278	POSTULATES four  POSTULATES I do not need  POSTULATES another  POSTULATES
+791.715925	793.902708	I have already proved twenty-eight. 
+794.003249	797.245720	I will succeed without your help,
+797.346262	803.655256	just as I have succeeded before, without adding another one.
+808.958833	820.269779	POSTULATES four  POSTULATES I do not need  POSTULATES another  POSTULATES
+830.550172	836.381592	If I wish to prove upon these pages
+836.507270	842.213013	that the interior angles are congruent,
+842.313555	846.888204	I will have to bow before the Muses 
+847.039017	850.432300	 and beg them for one more.
+853.775313	864.533279	POSTULATES four  POSTULATES I do not need  POSTULATES another  POSTULATES
+891.880632	911.963845	My lord, Ptolemy,  I am grateful to you for welcoming me here
+912.944127	918.448787	Thirteen volumes of theorems and axioms
+918.624735	924.330479	 I have already completed, I have already demonstrated. 
+924.431020	930.011087	But what you ask of me, I cannot do,  because:
+930.312712	942.503398	There is no royal road to geometry
+942.704482	956.730054	(Ptolomey I) I created Alexander’s city. I laid the foundations of Alexandria.
+956.906002	969.926157	I welcomed you into the Library.  You studied from those books that every ship arriving here  was politely compelled to surrender to me.
+985.359314	995.916197	Like an ungrateful son,  the man I welcomed answers me curtly:
+996.142416	1008.659862	There is no royal road to geometry.
+1023.715988	1036.937227	(Hypatia) Tell me about Greece, about your geometry.  In which library is the path preserved?
+1037.213716	1050.183601	(Proclus): In Alexandria of Egypt, the Muses guarded everything,  from the most arcane knowledge to the most difficult mysteries.
+1050.409820	1062.324016	The great Library will never return.  It was lost in the flames of a brutal and blind war.
+1062.424557	1075.168223	But who unleashed this senseless fury,  tearing apart the old fabric to impose a new rite?
+1089.847317	1105.481557	Theon preserved Euclid’s Elements,
+1105.657505	1110.835405	which are kept here, ready for new challenges.
+1111.011353	1121.467694	Upon five postulates and twenty-three definitions,  he proved his theorems using only nine axioms. 
+1123.880695	1129.888064	 Here in Athens, a new position will arise:
+1130.038877	1135.392725	 demonstration will become the foundation of science.
+1135.593808	1141.425229	“Ipse dixit” will remain only as a reminder
+1141.601177	1151.529674	that the school now needs a secular body of knowledge.
+1168.320144	1181.063810	Today I leave this earth and entrust my work.
+1181.566518	1187.498481	 Sown like a seed, it will rise from new soil.
+1187.599023	1193.757204	 My lines, my segments, my circles and their centers,
+1194.209642	1200.468365	will be born again in May, but in a new language. 
+1200.594042	1212.357426	They will become encrypted codes, encapsulated within form,  and they will offer new answers to questions not yet asked.
+1215.800980	1225.050820	What I did not dare to do will be done by someone not yet born, 
+1225.553529	1232.465774	within a new creed, surpassing the method of exhaustion.
+1232.591451	1239.453425	And through essential calculus, without ruler or compass,
+1239.629373	1248.954619	He will speak of infinities without seeming mad any longer.
+1300.959834	1305.836108	Here in Alexandria, the fire of my life goes out,
+1307.670995	1313.401874	and now the Muses will decide whether it was worthwhile.
+1313.527551	1321.043046	They will leave an epitaph, an inscription of my own:
+1321.143588	1333.987795	 Euclid lies within this earth, he who studied geometry.

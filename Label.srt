@@ -1,0 +1,406 @@
+1
+00:00:00,179 --> 00:00:00,179
+
+
+2
+00:00:05,178 --> 00:00:07,742
+Long before the Christian era,
+
+3
+00:00:07,867 --> 00:00:10,758
+along the shores beside the sea,
+
+4
+00:00:10,507 --> 00:00:15,182
+there lived pagan peoples,
+ with art within their hands.
+
+5
+00:00:19,128 --> 00:00:24,130
+They built systems
+ to understand the patterns,
+
+6
+00:00:24,130 --> 00:00:30,766
+with intricate designs
+ on vases now shattered.
+
+7
+00:00:31,093 --> 00:00:36,346
+This was the age of the ancient Greeks. 
+ Alexandria would become the center of civilization.
+
+8
+00:00:36,472 --> 00:00:44,666
+Within its library, 
+ culture would reach beyond the gods.
+
+9
+00:00:55,172 --> 00:01:01,305
+Upon the silver ashes of Alexander, the patron,
+
+10
+00:01:01,406 --> 00:01:10,530
+Ptolemy built a new tapestry for the East.
+
+11
+00:01:10,631 --> 00:01:16,387
+And military might, 
+ with its soldiers and generals,
+
+12
+00:01:16,512 --> 00:01:23,148
+gave way to the scientists 
+ gathered in Alexandria.
+
+13
+00:01:24,782 --> 00:01:38,229
+This was the age of the ancient Greeks...
+
+14
+00:02:01,200 --> 00:02:07,009
+In right-angled triangles,
+
+15
+00:02:07,160 --> 00:02:12,263
+the square on the side opposite the right angle
+
+16
+00:02:13,017 --> 00:02:27,947
+is equal to the sum of the squares on the sides that form the right angle.
+
+17
+00:02:24,453 --> 00:02:27,947
+A young student has questioned my proof.
+
+18
+00:02:28,148 --> 00:02:34,231
+He constructed it himself with a straightedge and tablet,
+
+19
+00:02:34,332 --> 00:02:39,962
+but seeing it is not enough— that is what his mind tells him.
+
+20
+00:02:40,138 --> 00:02:45,064
+He says it has not been proven upon an established foundation,
+
+21
+00:02:45,265 --> 00:02:50,192
+with rigorous boundaries and underlying axioms.
+
+22
+00:02:50,443 --> 00:02:55,797
+By questioning Thales and Hippocrates, Euclid
+
+23
+00:02:55,923 --> 00:03:01,000
+shakes a structure that has endured for centuries.
+
+24
+00:03:01,930 --> 00:03:06,430
+He said in the agora: “The theorem of Pythagoras has not been proven.”
+
+25
+00:03:06,580 --> 00:03:17,288
+Perhaps I am too old to understand… perhaps the Academy is not enough. He cannot stay. I will let him leave.
+
+26
+00:03:17,992 --> 00:03:29,655
+In right-angled triangles, the square on the side opposite the right angle...
+
+27
+00:04:13,089 --> 00:04:19,951
+I will leave and abandon
+
+28
+00:04:45,363 --> 00:04:56,297
+the skeptical companions who care for me, and my teacher, who carefully holds back
+
+29
+00:04:56,397 --> 00:05:15,500
+words of affection for me, though I seem heartless. I have made my decision: I must leave. For Alexandria.
+
+30
+00:05:15,022 --> 00:05:28,495
+In Cyrene, an unfinished study awaits me, but travelling there by land would be far too dangerous.
+
+31
+00:05:28,621 --> 00:05:41,741
+A distant colony—yet perhaps there I may find the traces left behind by Eudoxus.
+
+32
+00:05:55,088 --> 00:06:08,863
+From Megara, the route can be considered safe. Travelling by sea, frightening though it may be
+
+33
+00:06:08,988 --> 00:06:23,366
+would be more realistic than crossing the desert. There is a distant port I must reach: Alexandria.
+
+34
+00:06:35,858 --> 00:06:50,059
+The Etesian winds have swept the sky clear, the air is light, and I can breathe. The climate is different from that of the mainland: the scent of sea, stone and papyrus, in Alexandria.
+
+35
+00:07:31,080 --> 00:07:38,118
+Demetrius of Phalerum has introduced me to a young mathematician.
+
+36
+00:07:38,118 --> 00:07:45,483
+He says there is no need for gods or sacred numbers.  Only definitions.
+
+37
+00:07:45,383 --> 00:07:53,250
+Perhaps he is a simpleton, or perhaps he will sweep away the mysticism of the Pythagoreans.
+
+38
+00:07:52,948 --> 00:08:02,877
+He shall be admitted to the Library.  I will leave the judgment to History.
+
+39
+00:08:08,834 --> 00:08:16,601
+A point is that which has no part.
+
+40
+00:08:16,802 --> 00:08:25,851
+A line is breadthless length.  The ends of a line are points
+
+41
+00:08:45,029 --> 00:08:54,907
+From the premises, knowledge descends to earth, as was to be demonstrated!
+
+42
+00:09:07,726 --> 00:09:11,270
+I do not claim that I am right; I ask only that you grant me this:
+
+43
+00:09:11,547 --> 00:09:13,558
+let a line be drawn between two given points,
+
+44
+00:09:13,734 --> 00:09:17,026
+and, by the same concession, let those points be moved apart.
+
+45
+00:09:23,009 --> 00:09:25,095
+If you now accept that I may do this,
+
+46
+00:09:25,195 --> 00:09:27,634
+and with the same grace you are willing to imitate me,
+
+47
+00:09:27,734 --> 00:09:29,669
+then there is no need to comprehend infinity:
+
+48
+00:09:29,896 --> 00:09:32,937
+it will be defined within language.
+
+49
+00:09:33,113 --> 00:09:46,259
+There is a third kind: space,  the receptacle of all becoming,  itself formless.
+
+50
+00:09:52,995 --> 00:09:57,871
+What has been constructed is a chain of links,
+
+51
+00:09:57,972 --> 00:10:02,396
+joining fields of knowledge and holding them together.
+
+52
+00:10:02,496 --> 00:10:09,484
+Things equal to the same thing are also equal to one another.
+
+53
+00:10:13,430 --> 00:10:21,599
+From the premises, knowledge descends to earth, as was to be demonstrated!
+
+54
+00:11:04,556 --> 00:11:09,231
+And there is only one risk, one danger to avoid:
+
+55
+00:11:09,357 --> 00:11:15,892
+if the first link touches the last, closing the chain into a collar.
+
+56
+00:12:20,867 --> 00:12:30,242
+Only you remain, and you know it. You have no place among the others.
+
+57
+00:12:30,393 --> 00:12:41,855
+You were never brought in; you were never needed.
+
+58
+00:12:43,036 --> 00:12:56,006
+POSTULATES four  POSTULATES I do not need  POSTULATES another  POSTULATES
+
+59
+00:13:11,716 --> 00:13:13,903
+I have already proved twenty-eight.
+
+60
+00:13:14,003 --> 00:13:17,246
+I will succeed without your help,
+
+61
+00:13:17,346 --> 00:13:23,655
+just as I have succeeded before, without adding another one.
+
+62
+00:13:28,959 --> 00:13:40,270
+POSTULATES four  POSTULATES I do not need  POSTULATES another  POSTULATES
+
+63
+00:13:50,550 --> 00:13:56,382
+If I wish to prove upon these pages
+
+64
+00:13:56,507 --> 00:14:02,213
+that the interior angles are congruent,
+
+65
+00:14:02,314 --> 00:14:06,888
+I will have to bow before the Muses
+
+66
+00:14:07,039 --> 00:14:10,432
+and beg them for one more.
+
+67
+00:14:13,775 --> 00:14:24,533
+POSTULATES four  POSTULATES I do not need  POSTULATES another  POSTULATES
+
+68
+00:14:51,881 --> 00:15:11,964
+My lord, Ptolemy,  I am grateful to you for welcoming me here
+
+69
+00:15:12,944 --> 00:15:18,449
+Thirteen volumes of theorems and axioms
+
+70
+00:15:18,625 --> 00:15:24,330
+I have already completed, I have already demonstrated.
+
+71
+00:15:24,431 --> 00:15:30,011
+But what you ask of me, I cannot do,  because:
+
+72
+00:15:30,313 --> 00:15:42,503
+There is no royal road to geometry
+
+73
+00:15:42,704 --> 00:15:56,730
+(Ptolomey I) I created Alexander’s city. I laid the foundations of Alexandria.
+
+74
+00:15:56,906 --> 00:16:09,926
+I welcomed you into the Library.  You studied from those books that every ship arriving here  was politely compelled to surrender to me.
+
+75
+00:16:25,359 --> 00:16:35,916
+Like an ungrateful son,  the man I welcomed answers me curtly:
+
+76
+00:16:36,142 --> 00:16:48,660
+There is no royal road to geometry.
+
+77
+00:17:03,716 --> 00:17:16,937
+(Hypatia) Tell me about Greece, about your geometry.  In which library is the path preserved?
+
+78
+00:17:17,214 --> 00:17:30,184
+(Proclus): In Alexandria of Egypt, the Muses guarded everything,  from the most arcane knowledge to the most difficult mysteries.
+
+79
+00:17:30,410 --> 00:17:42,324
+The great Library will never return.  It was lost in the flames of a brutal and blind war.
+
+80
+00:17:42,425 --> 00:17:55,168
+But who unleashed this senseless fury,  tearing apart the old fabric to impose a new rite?
+
+81
+00:18:09,847 --> 00:18:25,482
+Theon preserved Euclid’s Elements,
+
+82
+00:18:25,658 --> 00:18:30,835
+which are kept here, ready for new challenges.
+
+83
+00:18:31,011 --> 00:18:41,468
+Upon five postulates and twenty-three definitions,  he proved his theorems using only nine axioms.
+
+84
+00:18:43,881 --> 00:18:49,888
+Here in Athens, a new position will arise:
+
+85
+00:18:50,039 --> 00:18:55,393
+demonstration will become the foundation of science.
+
+86
+00:18:55,594 --> 00:19:01,425
+“Ipse dixit” will remain only as a reminder
+
+87
+00:19:01,601 --> 00:19:11,530
+that the school now needs a secular body of knowledge.
+
+88
+00:19:28,320 --> 00:19:41,064
+Today I leave this earth and entrust my work.
+
+89
+00:19:41,567 --> 00:19:47,498
+Sown like a seed, it will rise from new soil.
+
+90
+00:19:47,599 --> 00:19:53,757
+My lines, my segments, my circles and their centers,
+
+91
+00:19:54,210 --> 00:20:00,468
+will be born again in May, but in a new language.
+
+92
+00:20:00,594 --> 00:20:12,357
+They will become encrypted codes, encapsulated within form,  and they will offer new answers to questions not yet asked.
+
+93
+00:20:15,801 --> 00:20:25,051
+What I did not dare to do will be done by someone not yet born,
+
+94
+00:20:25,554 --> 00:20:32,466
+within a new creed, surpassing the method of exhaustion.
+
+95
+00:20:32,591 --> 00:20:39,453
+And through essential calculus, without ruler or compass,
+
+96
+00:20:39,629 --> 00:20:48,955
+He will speak of infinities without seeming mad any longer.
+
+97
+00:21:40,960 --> 00:21:45,836
+Here in Alexandria, the fire of my life goes out,
+
+98
+00:21:47,671 --> 00:21:53,402
+and now the Muses will decide whether it was worthwhile.
+
+99
+00:21:53,528 --> 00:22:01,043
+They will leave an epitaph, an inscription of my own:
+
+100
+00:22:01,144 --> 00:22:13,988
+Euclid lies within this earth, he who studied geometry.

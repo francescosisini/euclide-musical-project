@@ -1,0 +1,13 @@
+0.179090	0.179090	
+5.177900	7.741714	Long before the Christian era,
+7.867391	10.757966	along the shores beside the sea,
+10.506612	15.181803	there lived pagan peoples,\N with art within their hands.
+19.128066	24.130017	They built systems\N to understand the patterns,
+24.130017	30.765772	with intricate designs\N on vases now shattered.
+31.092533	36.345839	This was the age of the ancient Greeks. \N Alexandria would become the center of civilization.
+36.471516	44.665668	Within its library, \N culture would reach beyond the gods.
+55.172279	61.305325	Upon the silver ashes of Alexander, the patron,
+61.405867	70.530030	Ptolemy built a new tapestry for the East.
+70.630572	76.386586	And military might, \N with its soldiers and generals,
+76.512263	83.148018	gave way to the scientists \N gathered in Alexandria.
+84.781822	98.229279	This was the age of the ancient Greeks...
