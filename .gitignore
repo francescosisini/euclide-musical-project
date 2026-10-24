@@ -1,9 +1,11 @@
-# File audio e video
+# Escludi file multimediali
 *.mp4
 *.mp3
-
-# Intera cartella festival
-/festival/
-
 *.wav
+
+# Consenti i WAV nella cartella audio
+!/audio/**/*.wav
+!/audio/*.wav
+
+# Escludi completamente il festival
 /festival/
