@@ -64,7 +64,7 @@ global = { \key c \minor \time 4/4 }
 % --- SEZIONI ---
 
 testo = \lyricmode {
-  En tòis or-- tho -- go -- NIois tri -- GO -- nois
+  En tòis or -- tho -- go -- NIois tri -- GO -- nois
   to a -- PÒ tes ten or -- TÈN GO -- ni -- an
   hy -- po -- TEI -- nu -- sas PLEU -- ras
 
@@ -110,7 +110,12 @@ melodiaVoce = \relative g {
   \global
   r2 r8 g8 c8 d8 | 
   ees16 ees ees8 ees16 d c8 r8 c8 d8 ees16 f|
-  f8 f16 ees f16 ees d8 r4 r4|
+  f8 f16 ees f16 ees d8 r8 g16 f  ees16  ees16 d16 ees16~ | 
+  ees16  c8 r4 r4 r8 ees16 ees16 c16|
+  c8 r2 g8 c8 d8 | 
+  ees16 ees ees8 ees16 d c8 r8 c8 d8 ees16 f|
+  f8 f16 ees f16 ees d8 r8 g16 f  ees16  ees16 d16 ees16~ | 
+  ees16  c8 r4 r4 r8 ees16 ees16 c16|
   
 
   
@@ -123,11 +128,21 @@ bassoGuida = \fixed c {
   c,4-> g,4-. c4-- g,8 b,8 |
   c,4-> g,4-. c4-- es,8 e,8 |
   f,4-> c4-. f4-- c8 es8 |
+  aes,4-> ees4-. aes4-- ees8 c8 |
+  
+  c,4-> g,4-. c4-- g,8 b,8 |
+  c,4-> g,4-. c4-- es,8 e,8 |
+  f,4-> c4-. f4-- c8 es8 |
+  aes,4-> ees4-. aes4-- ees8 c8 |
+  
+  
+  
 }
 
 % Accordi: una misura ciascuno (allineati alle 8 misure dell'arpeggio)
 accordi = \chordmode {
-  c1:m c1:m  f1:m
+  c1:m c1:m  f1:m aes1
+  c1:m c1:m  f1:m aes1
  
   
   %c2 f2 c2 a2:m c2 a2:m
