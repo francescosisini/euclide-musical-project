@@ -2,7 +2,7 @@
 \include "predefined-guitar-fretboards.ly"
 
 \header {
-  title = "L'Accamdeia"
+  title = "L'Accademia"
   subtitle = "Euclide"
   composer = "Franceso Sisini"
   %arranger = "Valentina Sisini, Matteo Braiato"
@@ -64,7 +64,7 @@ global = { \key c \minor \time 4/4 }
 % --- SEZIONI ---
 
 testo = \lyricmode {
-  En tòis or-- tho -- go -- NI -- ois tri -- GO -- nois
+  En tòis or-- tho -- go -- NIois tri -- GO -- nois
   to a -- PÒ tes ten or -- TÈN GO -- ni -- an
   hy -- po -- TEI -- nu -- sas PLEU -- ras
 
@@ -108,81 +108,27 @@ testo = \lyricmode {
 }
 melodiaVoce = \relative g {
   \global
-  r2 r4 g4| 
-  c2 e4 g4|
-  g2 a4 b4|
-  c2 e,4 e4~|
-  e4. c8 d8 c8. e8.|
-  d2 r4 c4|
-  e4 d4. d8 r4|
-  c8. c8 c8. d8 d8. d8.|
-  \tuplet 3/2 {d4 e e}  g8 g8. f8.|
-  g8 g8. g8 r8 c,8 c8. c8|
-  g'8 g8. g8 r8 c,8 c8. c8|
-  e8 e8. d8 d8. c8 d4
-  d16 e f8 e8 d c4 c8 c8
-  c4 e8 g c4 b8 a~|
-  a2 r4. a8|
-  g8 g8. d4 r8. d8 e|
-  f8. e8 c 2 r8.|
-  c'4. c8 b8 b c b| %  Io ho crea -- to la cit -- tà
-  a8 r8 a8 a8 g4 c,4
-  c'4. c8 b8 b8 c8 c8|
-  b4 a8 a8 g8 g8 c,4 %  di A -- les -- san -- dria
+  r2 r8 g8 c8 d8 | 
+  ees16 ees ees8 ees16 d c8 r8 c8 d8 ees16 f|
+  f8 f16 ees f16 ees d8 r4 r4|
   
-  c16 d16 e8 e8 e8 d8 e4  r8
-  e16 g g g8 g g8. g8 r4
-  a16 b c8 e,8 e e e r4
-  d16 c d8 d8 d d d r4
-  r1
-
-  c'4. c8 b8 b c b| %  Io ho crea -- to la cit -- tà
-  a8 r8 a8 a8 g4 c,4
-  c'4. c8 b8 b8 c8 c8|
-  b4 a8 a8 g8 g8 c,4 %  di A -- les -- san -- dria
-  
-  r1|
-  \override NoteHead.style = #'cross
-  c8 c8 c8 c8 c8 c8 r4
-  c8 c8 c8 c8 c8 c8 r4
-  c8 c8 c8 c8 c8 c8 r4
-  \revert NoteHead.style
-  c4 e8 g c4 b8 a~|
-  a2 r4. a8|
-  g8 g8. d4 r8. d8 e|
-  f8. e8 c 2 r8.|
-
 
   
   
 }
+bassoGuida = \fixed c {
+  \global
+  \clef bass
+
+  c,4-> g,4-. c4-- g,8 b,8 |
+  c,4-> g,4-. c4-- es,8 e,8 |
+  f,4-> c4-. f4-- c8 es8 |
+}
 
 % Accordi: una misura ciascuno (allineati alle 8 misure dell'arpeggio)
 accordi = \chordmode {
-  c1 c1  e1:m9 c1 a1:m
-  a1:m/g g1
-  c2 d2:m
-  c2 f2
-  c2 a2:m
-  c2 a2:m
-  d1:m
-  f1
-  c2 a2:m
-  f1|g1|c1|
-  c2 a2:m| f2 c2
-  c2 a2:m| f2 c2
-  c1|e1:m|
-  a1:m|a1:m
-  f2 g2 |
-  a2:m g2|
-  f2 c2|
-  a2:m g2|
-  f2 c2|
-  c2 e2:m|
-  c2 f2|
-  c2 f2|
-  c1|
-  c2 a2:m| f1|g1|c1
+  c1:m c1:m  f1:m
+ 
   
   %c2 f2 c2 a2:m c2 a2:m
   %d1:m f1 c2 a2:m f1
@@ -275,6 +221,16 @@ arpeggioChitarra = \relative c' {
   }
 >>
 
+ % --- LYRICS legate alla Voice "voce" ---
+    \new Lyrics \lyricsto "voce" { \testo }
+
+\new Staff \with {
+  instrumentName = "Basso"
+  shortInstrumentName = "Bs."
+  midiInstrument = "electric bass (pick)"
+} {
+  \bassoGuida
+}
 
     % --- Staff VOCE ---
    % \new Staff <<
@@ -285,8 +241,7 @@ arpeggioChitarra = \relative c' {
     %  }
    % >>
 
-    % --- LYRICS legate alla Voice "voce" ---
-    \new Lyrics \lyricsto "voce" { \testo }
+   
 
     % --- Staff CHITARRA (standard) con arpeggio ---
    % \new Staff \with {
@@ -305,5 +260,5 @@ arpeggioChitarra = \relative c' {
     %}
   >>
   \layout { }
-  \midi { \tempo 4 = 95 }
+  \midi { \tempo 4 = 60 }
 }
