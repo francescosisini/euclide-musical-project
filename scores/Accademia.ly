@@ -59,47 +59,52 @@ license = \markup {
     ))
 }
 
-global = { \key c \major \time 4/4 }
+global = { \key c \minor \time 4/4 }
 
 % --- SEZIONI ---
 
 testo = \lyricmode {
-  Si gnore To lo meo
-  io vi sono gra -- to
-  per a  ver  mi
- qui o -- spi -- ta -- to
- Tre -- di -- ci vo -- lu -- mi 
- Di teore -- mi e assio -- mi
- Ho g -- ià comple --  ta -- to
- Ho g -- ià dimo --  stra -- to
- Ma quel che mi chie -- dete
- Non lo po -- sso fa -- re per -- ché
- Ba -- si -- li -- kè ho -- dos
- non e -- sis -- te e --pi
- geo --  me -- trian
- 
- Io ho crea -- to la cit -- tà
- di A -- les -- san -- dro
- Ho fon -- da -- to la struttura
- di A -- les -- san -- dria
- 
- Io ti ho accolto in bib -- lioteca
- Hai stu -- diato su quei li -- bri
- che ogni na -- ve che ha approdato
- io con garbo ho se -- que -- strato
- 
- Io ho crea -- to la cit -- tà
- di A -- les -- sandro
- Ho fon -- da -- to la struttura
- di A -- les -- san -- dri -- a
- 
- Co -- me un fi -- glio ingrato
- L'uo -- mo che ho ospi -- tato
- sec -- co mi ris -- pon -- de
- 
- Ba -- si -- li -- kè ho -- dos
- uk es -- ti -- n e --pi
- geo --  me -- trian
+  En tòis or-- tho -- go -- NI -- ois tri -- GO -- nois
+  to a -- PÒ tes ten or -- TÈN GO -- ni -- an
+  hy -- po -- TEI -- nu -- sas PLEU -- ras
+
+  te -- TRÀ -- go -- non
+
+  I -- son È -- sti tòis a -- PÒ ton ten or -- TÈN GO -- ni -- an
+  pe -- ri -- e -- KHU -- son PLEU -- ron
+
+  te -- tra -- GÒ -- nois
+  
+  
+  Un giovane matetes ha dubitato della mia dimostrazione.
+
+  Egli stesso l’ha prodotta
+  con la riga e tavoletta,
+  ma vederla non gli basta
+  questo dice la sua testa
+
+
+  Dice: non è dimostrata
+  su una base stabilita,
+  di confini rigorosi
+  e di assiomi sottointesi,
+
+
+  dubitando di Talete
+  e di Ippocrate, Euclìde
+  fa tremare una struttura
+  che da secoli perdura.
+
+
+  Lui ha detto nell’àgora,
+  non è dimostrato
+  il teorema di Pità-gora.
+
+  Forse io sono troppo vecchio per capire…
+  forse l’accademia non è abbastanza.
+  Non può restare.
+  Lo lascerò partire.
+
 }
 melodiaVoce = \relative g {
   \global
