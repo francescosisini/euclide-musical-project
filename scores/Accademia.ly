@@ -47,7 +47,7 @@ license = \markup {
 
 \paper {
   oddHeaderMarkup = \markup {
-    \fill-line { \null \epsfile #Y #8 #"qrcode.eps" }  % header dx
+    %\fill-line { \null \epsfile #Y #8 #"qrcode.eps" }  % header dx
   }
 }
 \paper {
@@ -79,10 +79,11 @@ testo = \lyricmode {
   te -- tra -- GÒ -- nois
   
   
-  Un giovane matetes ha dubitato della mia dimostrazione.
+  Un gio -- va -- ne ma -- te -- tes ha du -- bi -- ta -- to 
+  della mia di -- mo -- stra -- zio -- ne.
 
-  Egli stesso l’ha prodotta
-  con la riga e tavoletta,
+  Eg -- li stes -- so l’ha pro -- dot -- ta
+  con la ri -- ga_e ta -- vo -- let -- ta,
   ma vederla non gli basta
   questo dice la sua testa
 
@@ -116,10 +117,20 @@ melodiaVoce = \relative g {
   f8 f16 ees f16 ees d8 r8 g16 f  ees16  ees16 d16 ees16~ | 
   ees16  c8 r4 r4 r8 ees16 ees16 c16|
   c8 r2 g16 c8 d8   ees16| 
-  f8 g8 bes8 bes16 aes8 g8 bes16 aes16 g16 | 
-  r4 f8  r8 f16 ees f16 ees d8  g8 f | 
-  r4  r4 r4 r16  ees16  d16 d16   |
-  c8
+  f8 g8 bes8 bes16 aes8 g8 bes16 aes16 g16 f8~  | 
+  f8  r8 r4  f16 ees f16 ees d8 | 
+  g8 f  r4 r4 r16  ees16  d16 d16  c8|
+  r1|
+  
+  % Parte parlata
+  \override NoteHead.style = #'cross
+  c16 c  c  c  r  c c  c r c c  c c c r c |
+  c r c c c c c r r4 r8 
+  % Ritorno al canto
+  \revert NoteHead.style
+  c16 d16|
+  ees d ees f g8 g8 r4 r 8 g16  f |
+  g ees f g f8 ees 8
 
   
 
@@ -142,9 +153,9 @@ bassoGuida = \fixed c {
   
   c,4-> g,4-. c4-- g,8 b,8 |
   c,4-> g,4-. c4-- es,8 e,8 |
-  f,4-> c4-. f4-- c8 es8 |
-  aes,4-> ees4-. aes4-- ees8 c8 |
-  
+  c,4-> g,4-. c4-- g,8 b,8 |
+  c,4-> g,4-. c4-- es,8 e,8 |
+  c,4-> g,4-. c4-- es,8 e,8 |
   
   
 }
@@ -153,7 +164,7 @@ bassoGuida = \fixed c {
 accordi = \chordmode {
   c1:m c1:m  f1:m aes1
   c1:m c1:m  f1:m aes1
-  c1:m c1:m  f1:m aes1
+  c1:m c1:m  c1:m c1:m 
  
   
   %c2 f2 c2 a2:m c2 a2:m
