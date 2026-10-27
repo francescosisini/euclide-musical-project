@@ -95,9 +95,9 @@ testo = \lyricmode {
 
 
   du -- bi -- tan -- do di Ta -- le -- te
-  e di Ippocrate, Euclìde
-  fa tremare una struttura
-  che da secoli perdura.
+  e di Ippocra - te, Eu -- clì -- de
+  fa tre -- ma -- re una strut -- tu -- ra
+  che da se -- co --li per -- du -- ra.
 
 
   Lui ha detto nell’àgora,
@@ -137,7 +137,10 @@ melodiaVoce = \relative g {
   g16 f g ees f g f8 es r4 r 8 c16  d | %su una base stabilita, di con
   ees  f ees  d d8 c 8  r4 r 8 c16  d |
   ees  f ees  d d8 c 8  r4 r 8 c16  d |
-   ees8 f16 g g8 g16 f8 r 4 r16 |
+   ees8 f16 g g8 g16 f8 r 4 r16 c16  d | 
+  ees8 f16 g g8 g16 f8 r 4 r16 c16  d | %su una base stabilita, di con
+  ees  f ees  d d8 c 8  r4 r 8 c16  d |
+  ees  f ees  d d8 c 8  r2 |
   
 }
 bassoGuida = \fixed c {
@@ -166,6 +169,9 @@ bassoGuida = \fixed c {
  c,4-> g,4-. c4-- g,8 b,8 |
   c,4-> g,4-. c4-- es,8 e,8 |
   f,4-> c4-. f4-- c8 es8  |
+  c,4-> g,4-. c4-- g,8 b,8 |
+  c,4-> g,4-. c4-- g,8 b,8 |
+  c,4-> g,4-. c4-- g,8 b,8 |
   
 }
 
@@ -176,6 +182,8 @@ accordi = \chordmode {
   c1:m c1:m  c1:m c1:m 
   c1:m c1:m  c1:m f1:m
   c1:m c1:m  c1:m f1:m
+  c1:m c1:m  c1:m c1:m
+  
  
   
   %c2 f2 c2 a2:m c2 a2:m
