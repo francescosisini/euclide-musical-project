@@ -132,7 +132,8 @@ melodiaVoce = \relative g {
   ees d ees f g8 g8 r4 r 8 g16  f | % Egli stesso l'ha prodotta con la
   g ees f g f8 ees 8  r4 r 8c16  d | % riga e tavoletta. Ma vede-
   ees f ees d d8 c8 r4 r 8c16  d | %rla non gli basta. Questo
-  g ees f g f8 ees 8  r4 r 8c16  d | 
+  ees  f ees  d d8 c 8  r4 r 8c16  d | 
+  ees8 f16 g g8 g16 f8 
 
   
   
@@ -158,6 +159,7 @@ bassoGuida = \fixed c {
   c,4-> g,4-. c4-- es,8 e,8 |
   c,4-> g,4-. c4-- es,8 e,8 |
   c,4-> g,4-. c4-- es,8 e,8 |
+  f,4-> c4-. f4-- c8 es8 |
   
 }
 
