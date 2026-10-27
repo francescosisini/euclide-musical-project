@@ -84,14 +84,14 @@ testo = \lyricmode {
 
   Eg -- li stes -- so l’ha pro -- dot -- ta
   con la ri -- ga_e ta -- vo -- let -- ta,
-  ma vederla non gli basta
-  questo dice la sua testa
+  ma ve -- der -- la non gli bas -- ta
+  ques -- to di -- ce la sua tes -- ta
 
 
-  Dice: non è dimostrata
-  su una base stabilita,
-  di confini rigorosi
-  e di assiomi sottointesi,
+  Di -- ce: non è di -- mo -- stra -- ta
+  su una ba -- se sta -- bi -- li -- ta,
+  di con -- fi -- ni ri -- go -- ro -- si
+  e di assio -- mi sot -- to -- inte -- si,
 
 
   dubitando di Talete
@@ -129,10 +129,10 @@ melodiaVoce = \relative g {
   % Ritorno al canto
   \revert NoteHead.style
   c16 d16|
-  ees d ees f g8 g8 r4 r 8 g16  f |
-  g ees f g f8 ees 8
-
-  
+  ees d ees f g8 g8 r4 r 8 g16  f | % Egli stesso l'ha prodotta con la
+  g ees f g f8 ees 8  r4 r 8c16  d | % riga e tavoletta. Ma vede-
+  ees f ees d d8 c8 r4 r 8c16  d | %rla non gli basta. Questo
+  g ees f g f8 ees 8  r4 r 8c16  d | 
 
   
   
@@ -156,7 +156,8 @@ bassoGuida = \fixed c {
   c,4-> g,4-. c4-- g,8 b,8 |
   c,4-> g,4-. c4-- es,8 e,8 |
   c,4-> g,4-. c4-- es,8 e,8 |
-  
+  c,4-> g,4-. c4-- es,8 e,8 |
+  c,4-> g,4-. c4-- es,8 e,8 |
   
 }
 
@@ -165,6 +166,7 @@ accordi = \chordmode {
   c1:m c1:m  f1:m aes1
   c1:m c1:m  f1:m aes1
   c1:m c1:m  c1:m c1:m 
+  c1:m c1:m  c1:m c1:m
  
   
   %c2 f2 c2 a2:m c2 a2:m
