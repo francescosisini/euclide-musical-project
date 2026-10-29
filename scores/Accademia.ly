@@ -100,15 +100,28 @@ testo = \lyricmode {
   che da se -- co --li per -- du -- ra.
 
 
-  Lui ha detto nell’àgora,
-  non è dimostrato
-  il teorema di Pità-gora.
+  Lui ha det -- to nell’à -- go -- ra,
+  non è di -- mo -- stra -- to
+  il teo -- re -- ma di Pi --tà -- go -- ra.
 
-  Forse io sono troppo vecchio per capire…
-  forse l’accademia non è abbastanza.
-  Non può restare.
-  Lo lascerò partire.
+  For -- se io so -- no trop -- po vec -- chio per ca -- pi -- re…
+  for -- se l’ac -- ca -- de -- mia non è ab -- ba -- sta -- nza.
+  Non può res -- ta -- re.
+  Lo la -- sce -- rò par -- ti -- re.
 
+% primo 
+  En tòis or -- tho -- go -- NIois tri -- GO -- nois
+  to a -- PÒ tes ten or -- TÈN GO -- ni -- an
+  hy -- po -- TEI -- nu -- sas PLEU -- ras
+
+  te -- TRÀ -- go -- non
+
+%secondo
+
+  I -- son È -- sti tòis a -- PÒ ton ten or -- TÈN GO -- ni -- an
+  pe -- ri -- e -- KHU -- son PLEU -- ron
+
+  te -- tra -- GÒ -- nois
 }
 melodiaVoce = \relative g {
   \global
@@ -141,6 +154,25 @@ melodiaVoce = \relative g {
   ees8 f16 g g8 g16 f8 r 4 r16 c16  d | %su una base stabilita, di con
   ees  f ees  d d8 c 8  r4 r 8 c16  d |
   ees  f ees  d d8 c 8  r2 |
+   \override NoteHead.style = #'cross
+  c16 c  c  c  r  c c  c r c c  c c c r c |
+  c r c c c c c c c c r4 c16 |
+  c c c c c c r8  c c c c c |
+   c16 r 16 c c c  c c c r16
+   c16 c c c  c c c 
+   c16 c c c r16  c c c c c c c r 16 r8
+  
+  % Ritorno al canto
+  \revert NoteHead.style
+  r2 r8 g8 c8 d8 | 
+  ees16 ees ees8 ees16 d c8 r8 c8 d8 ees16 f|
+  f8 f16 ees f16 ees d8 r8 g16 f  ees16  ees16 d16 ees16~ | 
+  ees16  c8 r4 r4 r8 ees16 ees16 c16|
+  c8 r2 g16 c8 d8   ees16| 
+  f8 g8 bes8 bes16 aes8 g8 bes16 aes16 g16 f8~  | 
+  f8  r8 r4  f16 ees f16 ees d8 | 
+  g8 f  r4 r4 r16  ees16  d16 d16  c8|
+  r1|
   
 }
 bassoGuida = \fixed c {
@@ -169,6 +201,10 @@ bassoGuida = \fixed c {
  c,4-> g,4-. c4-- g,8 b,8 |
   c,4-> g,4-. c4-- es,8 e,8 |
   f,4-> c4-. f4-- c8 es8  |
+  c,4-> g,4-. c4-- g,8 b,8 |
+  c,4-> g,4-. c4-- g,8 b,8 |
+  c,4-> g,4-. c4-- g,8 b,8 |
+  c,4-> g,4-. c4-- g,8 b,8 |
   c,4-> g,4-. c4-- g,8 b,8 |
   c,4-> g,4-. c4-- g,8 b,8 |
   c,4-> g,4-. c4-- g,8 b,8 |
