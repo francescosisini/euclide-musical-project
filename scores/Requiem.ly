@@ -59,7 +59,7 @@ license = \markup {
     ))
 }
 
-global = { \key f \major \time 4/4 }
+global = { \key g \minor \time 4/4 }
 
 % --- SEZIONI ---
 
@@ -67,12 +67,13 @@ testo = \lyricmode {
 Og -- gi la -- scio ques -- ta ter -- ra
  e af -- fi -- do il mio lavo -- ro.
 Se -- mi -- na -- to come un se -- me,
- na -- sce -- rà su un nuo -- vo suo -- lo.
-Le mie linee, i miei segmenti,
- i miei cerchi, gli epicentri,
- nasceranno ancora a maggio,
- ma sarà un nuovo linguaggio.
-Saranno codici cifrati,
+ na -- sce -- rà su un nuo -- vo suolo.
+Le mie li -- nee, i miei seg -- menti,
+ i miei cer -- chi, gli epi -- cen -- tri,
+ na -- sce -- ranno anco -- ra a mag -- gio,
+ ma sarà un nuo -- vo lingu -- ag -- gio.
+ 
+Sa -- ran -- no co -- di -- ci ci -- fra -- ti,
 Nella forma incapsulati
  E saran nuove risposte
  a domande ora non poste.
@@ -95,13 +96,21 @@ Lasceranno un epitaffio,
 }
 melodiaVoce = \relative g'' {
   \global
-  d4 a8 d4  a8 	d8 c |
-  bes4. g4. r4	|
-  d'4 a8 d4  a8 	d8 c |
-   bes4. g4. r4	|
-  c16 d ees8 ees f g g  d r8
+  %d4 a8 d4  a8 	d8 c |
+  %bes4. g4. r4	|
+  d4 d8 g4 d8  g8 f | % oggi lascio...
+  ees4. c4. r4	| %  ... terra
+  d4 d8 g4 d8  g8 f | % e affido...
+  ees4. c4. r4	| % .. lavoro
  
-  d16 d ees 8 d c bes c8 a8 a
+  c16 d ees8 ees f g g  d r8| % seminato..
+    d16 d ees 8 d c bes c8 a4|  % nascerà
+   r8 a16 a d8 c bes16 a c8 bes8 r8 | %Le mie linee..
+   bes16  bes bes8 bes 8 r8 c16 d16 d 8 d r8| % i miei cerchi
+   d16 d d8 ees 8 f g g d4| % nasceranno ancoea...
+  d16 d g8 ees c bes c a4 | % ma sarà...
+  r8 d8 g bes d |
+  d8 c bes c c
   
 }
 bassoGuida = \fixed c {
